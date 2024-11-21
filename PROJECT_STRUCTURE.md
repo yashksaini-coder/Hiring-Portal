@@ -18,11 +18,13 @@
 │   │   │   ├── companyController.js
 │   │   │   ├── contactController.js
 │   │   │   ├── directController.js
+│   │   │   ├── discussionController.js
 │   │   │   ├── feedbackController.js
 │   │   │   ├── forgotPasswordController.js
 │   │   │   ├── jobController.js
 │   │   │   ├── otherApiController.js
 │   │   │   ├── otpVerifyController.js
+│   │   │   ├── postsController.js
 │   │   │   ├── userController.js
 │   │   │   └── visitorController.js
 │   │   ├── middlewares/
@@ -41,7 +43,9 @@
 │   │   │   ├── Result.js
 │   │   │   ├── User.js
 │   │   │   ├── Visitor.js
-│   │   │   └── feedback.js
+│   │   │   ├── discussion.js
+│   │   │   ├── feedback.js
+│   │   │   └── postModel.js
 │   │   ├── routes/
 │   │   │   ├── applicationRoute.js
 │   │   │   ├── assessmentRoutes.js
@@ -49,9 +53,11 @@
 │   │   │   ├── companyRoutes.js
 │   │   │   ├── contactRoutes.js
 │   │   │   ├── directRoutes.js
+│   │   │   ├── discussionRoutes.js
 │   │   │   ├── feedbackRoutes.js
 │   │   │   ├── jobRoutes.js
 │   │   │   ├── otherApiRoutes.js
+│   │   │   ├── storiesRoutes.js
 │   │   │   ├── userRoutes.js
 │   │   │   └── visitorRoutes.js
 │   │   ├── sendMail.js
@@ -1218,6 +1224,7 @@
 │       │   ├── Feedback.module.css
 │       │   ├── NotFound.css
 │       │   ├── SigninWithGoogle.module.css
+│       │   ├── Stories.module.css
 │       │   ├── TermsOfUse.module.css
 │       │   ├── admin.css
 │       │   ├── ass.css
@@ -1309,6 +1316,7 @@
 │       │   ├── Signin.jsx
 │       │   ├── Signup.jsx
 │       │   ├── Spinner.jsx
+│       │   ├── Stories.jsx
 │       │   ├── TermsAndConditions.jsx
 │       │   ├── TermsOfUse.jsx
 │       │   ├── Testimonial.jsx
